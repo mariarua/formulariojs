@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <link  rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h1>Registro</h1>
+            <div class="group">
+                <input type="text" name="" id="name" ><span class="barra"></span>
+                <label for="">Nombres</label>
+            </div>
+            <div class="group">
+                <input type="text" name="" id="last-name" ><span class="barra"></span>
+                <label for="">Apellidos</label>
+            </div>
+            <div class="group">
+                <input type="email" name="" id="email" ><span class="barra"></span>
+                <label for="">Email</label>
+            </div>
+            <div class="group">
+                <input type="password" name="" id="password" ><span class="barra"></span>
+                <label for="">Constraseña</label>
+            </div>
+            <div class="group">
+                <input type="password" name="" id="repeat-password" ><span class="barra"></span>
+                <label for="">Repetir contraseña</label>
+            </div>
+            <div class="group">
+                <input type="text" name="" id="phone" ><span class="barra" placeholder="4491234567"></span>
+                <label for="">Teléfono</label>
+            </div>
+            <div class="group-date" id="ageDiv">
+                <input type="date" name="dateofbirth" id="ageInput" id="dateofbirth"><span class="barra"></span>
+                <label for="dateofbirth">Fecha de nacimiento</label>
+            </div>
+            
+            
+            <div class="group-check">
+                <input type="checkbox" name="" id="check" class="checkbox" ><span class="check" > Acepto los terminos y condiciones</span>
+            </div>
+            
+
+            <button type="submit"> Suscribirte</button>
+            <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+
+  <script src="main.js"></script>  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
